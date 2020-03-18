@@ -1,0 +1,55 @@
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+nav {
+    width: 92%;
+    margin: 0 auto;
+}
+
+h1 {
+    cursor: pointer;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 0px;
+}
+
+ul {
+    border: 2px inset white;
+}
+
+li {
+    padding: 5px;
+    cursor: pointer;
+    display: inline-block;
+    color: whitesmoke;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+}
+
+.boxmodel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boxmodel img {
+    border: 1px solid #4a4a5e;
+    margin: 5px;
+    object-fit: cover;
+    cursor: pointer;
+    width: 450px;
+    height: 300px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
